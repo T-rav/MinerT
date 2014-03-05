@@ -3,10 +3,9 @@
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 
-include 'workers/balance_update.php';
-
 $user=$_GET['user'];
 $mineType=$_GET['mineType'];
+
 
 $isValid = ValidateUser($user);
 $userMsg = "Invalid User - Please contact the developer at dogecoin99@gmail.com";
@@ -158,43 +157,31 @@ function FetchBalances($user, $fileNamePrefix){
 	return $result;
 }
 
-
 // Fetch all balances ;)
 function FetchBalance($user, $fileNamePrefix){
-	
-	
-	if($fileNamePrefix == "btc"){
-		$wallet = FetchWalletForMiningType($user, $fileNamePrefix);
-		$result = FetchProfitSwitchBalance($wallet);
-		$ts = date("Y-m-d H:i:s");
-		
-		return new MiningBalance($result, $fileNamePrefix, $ts);
-	}else{
-	
-		$fileName= $fileNamePrefix."_balances.txt";
+	$fileName= $fileNamePrefix."_balances.txt";
 
-		$lines = file($fileName, FILE_IGNORE_NEW_LINES);
-		$pos=0;
-		$found=0;
-		$bal = array();
+	$lines = file($fileName, FILE_IGNORE_NEW_LINES);
+	$pos=0;
+	$found=0;
+	$bal = array();
 
-		// build balances
-		for($x=0; $x < count($lines); $x++){
-			$tmp = explode(",",$lines[$x]);
-			$bal[$tmp[0]] = $tmp[1];
-		}
-
-		$result = 0.0;
-		try{
-			$result = $bal[$user];
-		}catch(Exception $e){
-		}
-		
-		$ts = FetchBalanceTs($fileNamePrefix);
-		
-		return new MiningBalance($result, $fileNamePrefix, $ts);
-		
+	// build balances
+	for($x=0; $x < count($lines); $x++){
+		$tmp = explode(",",$lines[$x]);
+		$bal[$tmp[0]] = $tmp[1];
 	}
+
+	$result = 0.0;
+	try{
+		$result = $bal[$user];
+	}catch(Exception $e){
+	}
+	
+	$ts = FetchBalanceTs($fileNamePrefix);
+	
+	return new MiningBalance($result, $fileNamePrefix, $ts);
+
 }
 
 // Fetch Balance TS

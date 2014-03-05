@@ -1,14 +1,13 @@
 <?php
 
-ini_set('display_errors', true);
-error_reporting(E_ALL);
+//ini_set('display_errors', true);
+//error_reporting(E_ALL);
 
-$wallet=$_GET['wallet'];
-$time = time();
+//$wallet=$_GET['wallet'];
 
-header('Content-Type:text/html');
+//header('Content-Type:text/html');
 
-$result = FetchProfitSwitchBalance($wallet);
+//$result = FetchProfitSwitchBalance($wallet);
 
 //echo json_encode($result);
 
@@ -28,14 +27,12 @@ function FetchProfitSwitchBalance($wallet){
 
 	$contents = file_get_contents($urlBase.$wallet);
 
-	//echo $contents;
 	$sentBtc = ExtractSentBtc($contents);
 	$earnedBtc = ExtractEarnedBtc($contents);
 	
-	echo $sentBtc;
+	return  $sentBtc + $earnedBtc;
 	
 	//return new ProfitSwitchBalance($sentBtc, $earnedBtc);
-	
 }
 
 // sent bit coins ;)
@@ -73,21 +70,23 @@ function ExtractBtcValue($contents, $magicString){
 	return "0.0";
 }
 
-
 class ProfitSwitchBalance{
 
 	public $SentBtc;
 	
 	public $EarnedBtc;
-	
-	public __construct($sent, $earned){
+		
+	function __construct($sent, $earned){
 		
 		$this->SentBtc = $sent;
 		
 		$this->EarnedBtc = $earned;
 	}
+	
+	function TotalBtc(){
+		return $this->SentBtc + $this->EarnedBtc;
+	}
 }
-
 
 ?>
 
