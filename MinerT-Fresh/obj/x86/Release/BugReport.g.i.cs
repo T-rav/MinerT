@@ -9,9 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Hardcodet.Wpf.TaskbarNotification;
 using Microsoft.Windows.Themes;
-using MinerT;
 using System;
 using System.Diagnostics;
 using System.Windows;

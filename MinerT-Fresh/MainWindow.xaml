@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
-        Title="MinerT - V1.7.0" Height="365" Width="890" 
+        Title="MinerT - V1.7.1" Height="365" Width="890" 
         MinHeight="365" MinWidth="890"
         MaxHeight="365" MaxWidth="890"
         Background="AliceBlue" Icon="/MinerT;component/green_creature.ico">
@@ -100,7 +100,7 @@
             <!--<ComboBoxItem Content="Doge Coin" Background="DarkGray" ToolTip="Mines Doge Coin. 0% fees"/>-->
             <!--<ComboBoxItem Content="Cosmos Coin" Background="DarkGray" ToolTip="Mines Cosmos Coin. 1% fees"/>-->
         </ComboBox>
-        <ComboBox Foreground="WhiteSmoke" Background="LightSteelBlue" Height="23" HorizontalAlignment="Left" Margin="303,46,0,0" Name="MiningBalancesBox" VerticalAlignment="Top" Width="182">
+        <ComboBox Foreground="WhiteSmoke" Background="LightSteelBlue" Height="23" HorizontalAlignment="Left" Margin="308,46,0,0" Name="MiningBalancesBox" VerticalAlignment="Top" Width="182">
             <!-- ReSharper disable once InconsistentNaming -->
             <ComboBoxItem Content="0.0 DOGE" Name="DOGE" Foreground="WhiteSmoke" Background="LightSteelBlue"/>
             <ComboBoxItem Content="0.0 BTC" Name="BTC" Foreground="WhiteSmoke" Background="LightSteelBlue" IsSelected="True"/>

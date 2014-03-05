@@ -31,7 +31,7 @@
         <ComboBox Height="18" HorizontalAlignment="Left" Margin="268,148,0,0" Name="FridayStopBox" VerticalAlignment="Top" Width="78" FontSize="9" Background="DarkGray" Foreground="Black"/>
         <ComboBox Height="18" HorizontalAlignment="Left" Margin="268,173,0,0" Name="SaturdayStopBox" VerticalAlignment="Top" Width="78" FontSize="9" Background="DarkGray" Foreground="Black"/>
         <ComboBox Height="18" HorizontalAlignment="Left" Margin="268,200,0,0" Name="SundayStopBox" VerticalAlignment="Top" Width="78" FontSize="9" Background="DarkGray" Foreground="Black"/>
-        <Button Content="Ok" Height="22" HorizontalAlignment="Right" Margin="0,240,48,0" Name="OkButton" VerticalAlignment="Top" Width="78" Background="RoyalBlue" Foreground="WhiteSmoke" Click="OkButton_Click" />
+        <Button Content="Ok" Height="22" HorizontalAlignment="Right" Margin="0,240,33,0" Name="OkButton" VerticalAlignment="Top" Width="78" Background="RoyalBlue" Foreground="WhiteSmoke" Click="OkButton_Click" />
         <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="146,239,0,0" Name="CancelButton" VerticalAlignment="Top" Width="78" Background="Brown" Foreground="WhiteSmoke" Click="CancelButton_Click" />
         <Separator Height="4" HorizontalAlignment="Left" Margin="20,224,0,0" Name="BottomSeparator" VerticalAlignment="Top" Width="330" />
         <ComboBox Height="18" HorizontalAlignment="Left" Margin="146,42,0,0" Name="MondayStartBox" VerticalAlignment="Top" Width="78" FontSize="9" Background="DarkGray" Foreground="Black"/>
