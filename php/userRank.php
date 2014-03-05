@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 $user=$_GET['user'];
 
 header('Content-Type:text/html');
-$fileName= "mining_balances.txt";
+$fileName= "btc_balances.txt";
 
 $lines = file($fileName, FILE_IGNORE_NEW_LINES);
 $pos=0;

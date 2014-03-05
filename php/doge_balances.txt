@@ -1,11 +1,12 @@
-MrTtheMiner,1834.65080248
-HugsTheMiner,846.65582818
+MrTtheMiner,1860.44550156
+HugsTheMiner,888.09454161
 MoTheMiner,3443.93280361
-EtienTheMiner,603.24684559
-BagelTheMiner,1305.36873924
-RtheMiner,3654.79259329
+EtienTheMiner,622.82574304
+BagelTheMiner,1357.4488048
+RtheMiner,3679.79259329
 JtheMiner,0.0
 KyleTheMiner,0.012262
 VinceTheMiner,3204.13900003
 MizerTheMiner,0.0
 BradTheMiner,0.0
+JonTheMiner,0.0

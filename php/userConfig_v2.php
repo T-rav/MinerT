@@ -21,7 +21,7 @@ if($isValid){
 	$fileNamePrefix = FetchFileNamePrefix($user, $mineType);
 	
 	//$balance = FetchBalance($user);
-	$rank = FetchRank($user, "doge");
+	$rank = FetchRank($user, "btc");
 	//$balanceTS = FetchBalanceTS();
 	$isUserMsgError = false;
 	// wallet

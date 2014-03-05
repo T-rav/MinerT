@@ -9,3 +9,4 @@ KyleTheMiner,0.012262
 VinceTheMiner,3204.13900003
 MizerTheMiner,0.0
 BradTheMiner,0.0
+JonTheMiner,0.0
