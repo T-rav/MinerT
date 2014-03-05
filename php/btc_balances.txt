@@ -1,0 +1,11 @@
+BagelTheMiner,0.0001843
+BradTheMiner,0.0
+EtienTheMiner,0.0
+HugsTheMiner,0.0
+JustinTheMiner,0.0
+KyleTheMiner,0.0
+MizerTheMiner,0.0
+MoTheMiner,0.00125834
+MrTtheMiner,0.0021715
+RtheMiner,0.00198764
+VinceTheMiner,0.0

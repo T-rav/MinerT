@@ -1,0 +1,11 @@
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\UpdateBootstrap.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\UpdateBootstrap.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\AutoUpdater.NET.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\AutoUpdater.NET.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\es\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\fr\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\it-IT\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\bin\Debug\ru\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\obj\x86\Debug\UpdateBootstrap.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\UpdateBootstrap\obj\x86\Debug\UpdateBootstrap.pdb

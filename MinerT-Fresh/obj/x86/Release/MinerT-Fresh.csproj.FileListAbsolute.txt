@@ -1,0 +1,67 @@
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT.exe
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT.pdb
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\BugReport.baml
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MainWindow.baml
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\Schedule.baml
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\App.baml
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT_MarkupCompile.cache
+C:\Documents and Settings\Administrator\My Documents\stone_age\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT_MarkupCompile.lref
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\AutoUpdater.NET.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\UpdateBootstrapper.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\Newtonsoft.Json.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\AutoUpdater.NET.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\UpdateBootstrapper.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\es\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\fr\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\ru\AutoUpdater.NET.resources.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\BugReport.baml
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MainWindow.baml
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\Schedule.baml
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\App.baml
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\BugReport.g.cs
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MainWindow.g.cs
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\Schedule.g.cs
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\App.g.cs
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT_Content.g.cs
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT_MarkupCompile.cache
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT_MarkupCompile.lref
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\NotifyIconResources.baml
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT.g.resources
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\cgminer.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\libcurl-4.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\libeay32.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\libidn-11.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\librtmp.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\libssh2.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\ssleay32.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\zlib1.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\cpu_miner\libcurl-4.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\cpu_miner\minerd.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\cpu_miner\pthreadGC2.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\cpu_miner\zlib1.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\ngpu_miner\cudaminer.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\ngpu_miner\cudart64_55.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\ngpu_miner\pthreadVC2.dll
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\API.class
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\bitstreams\COPYING_fpgaminer
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\bitstreams\fpgaminer_top_fixed7_197MHz.ncd
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\diablo130302.cl
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\diakgcn121016.cl
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\MCast.class
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\phatk121016.cl
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\poclbm130302.cl
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\binaries\agpu_miner\scrypt130511.cl
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\MinerT.exe
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\bin\Release\MinerT.pdb
+C:\Documents and Settings\Administrator\Desktop\MinerT-Fresh\MinerT-Fresh\obj\x86\Release\MinerT.Properties.MinerTResources.resources

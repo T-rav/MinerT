@@ -1,0 +1,109 @@
+﻿<Window x:Class="MinerT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
+        Title="MinerT - V1.7.0" Height="365" Width="890" 
+        MinHeight="365" MinWidth="890"
+        MaxHeight="365" MaxWidth="890"
+        Background="AliceBlue" Icon="/MinerT;component/green_creature.ico">
+    <Window.Resources >
+        <ResourceDictionary >
+            <ImageSource x:Key="lvl0">icons/lvl0.jpg</ImageSource>
+            <ImageSource x:Key="lvl1">icons/lvl1.png</ImageSource>
+            <ImageSource x:Key="lvl2">icons/lvl2.jpg</ImageSource> 
+            <ImageSource x:Key="lvl3">icons/lvl3.jpg</ImageSource>
+            <ImageSource x:Key="lvl4">icons/lvl4.jpg</ImageSource>
+            <ImageSource x:Key="lvl5">icons/lvl5.jpg</ImageSource>
+            <ControlTemplate TargetType="{x:Type Button}" x:Key="BtnControlTemplate">
+                <themes:ButtonChrome Name="Chrome" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" RenderDefaulted="{TemplateBinding IsDefaulted}" RenderMouseOver="{TemplateBinding IsMouseOver}" RenderPressed="{TemplateBinding IsPressed}" SnapsToDevicePixels="true">
+                    <ContentPresenter Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="true" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                </themes:ButtonChrome>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsKeyboardFocused" Value="true">
+                        <Setter TargetName="Chrome" Property="RenderDefaulted" Value="false" />
+                    </Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+        </ResourceDictionary >
+    </Window.Resources>
+    <Grid>
+        <Label Content="Mining Type:" Height="28" Margin="4,46,0,0" Name="MiningTypeLbl" VerticalAlignment="Top" HorizontalAlignment="Left" Width="71" />
+        <ScrollViewer Height="215" HorizontalAlignment="Left" Margin="3,74,0,0" Name="MiningLogScroller" VerticalAlignment="Top" Width="865">
+            <TextBox Height="213" Name="MiningLogTxt" Width="848" IsReadOnly="true"/>
+        </ScrollViewer>
+        <Label Content="Mining User:" Height="28" HorizontalAlignment="Right" Margin="0,9,251,0" Name="MiningUserLbl" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,12,12,0" Name="MiningUserTxt" VerticalAlignment="Top" Width="233" />
+        <Label Content="Mining Balance:" Height="28" HorizontalAlignment="Left" Margin="215,48,0,0" Name="MinigBalanceLblFixed" VerticalAlignment="Top" />
+        <!-- Check balance Btn -->
+        <Button Content="Check Stats" 
+                Height="23" 
+                HorizontalAlignment="Right" 
+                Margin="0,10,368,0" 
+                Name="CheckBalance" 
+                VerticalAlignment="Top" 
+                Width="132" 
+                Background="SteelBlue" 
+                Foreground="Snow" 
+                Click="CheckStats_Click" 
+                Template="{StaticResource BtnControlTemplate}" />
+        
+        <!-- Mining Btn -->
+        <Button Background="DodgerBlue" 
+                Content="Start Mining" 
+                Height="23" 
+                HorizontalAlignment="Left" 
+                Margin="221,10,0,0" 
+                Name="MineBtn" 
+                VerticalAlignment="Top" 
+                Width="132" 
+                Foreground="Snow" 
+                Click="MineBtn_Click"
+                Template="{StaticResource BtnControlTemplate}" />
+        
+        <!-- Schedule btn -->
+        <Button Background="RoyalBlue" 
+                Content="Schedule" 
+                Foreground="Snow" 
+                Height="23" 
+                HorizontalAlignment="Left" 
+                Margin="4,295,0,0" 
+                Name="ScheduleBtn" 
+                VerticalAlignment="Top" 
+                Width="132" 
+                Click="ScheduleBtn_Click"
+                Template="{StaticResource BtnControlTemplate}" />
+        
+        <Label Content="Mining Rewards:" Height="28" HorizontalAlignment="Left" Margin="499,48,0,0" Name="MiningRewardsTxtLabel" VerticalAlignment="Top" />
+        <Image Margin="600,40,0,251" Name="MiningRewardImage" Stretch="Fill" Source="icons/lvl0.jpg" Width="20" Height="20" HorizontalAlignment="Left" />
+        <Label Content="A basic shovel" Height="22" HorizontalAlignment="Left" Margin="623,49,0,0" Name="MiningRewardLabel" VerticalAlignment="Top" Width="141" FontSize="10" />
+        <CheckBox IsChecked="True" Content="GPU" Height="16" HorizontalAlignment="left" Margin="79,52,0,0" Name="SingleGpuModeCheckBox" VerticalAlignment="Top" ToolTip="Check this if the client crashes. It will not attempt CPU." Checked="SingleModeGPUCheckBox_Checked" Unchecked="SingleModeGPUCheckBox_Checked" />
+        <CheckBox IsChecked="True" Content="CPU" Height="16" HorizontalAlignment="Right" Margin="0,52,697,0" Name="SingleCpuModeCheckBox" VerticalAlignment="Top" ToolTip="Check this if you want CPU only." Checked="SingleModeCPUCheckBox_Checked" Unchecked="SingleModeCPUCheckBox_Checked" />
+        
+        <!-- Report Bug Btn -->
+        <Button Background="Brown" 
+            Content="Report Bug" 
+            Foreground="Snow" 
+            Height="23" 
+            HorizontalAlignment="Right" 
+            Margin="0,295,14,0" 
+            Name="ReportBugButton" 
+            VerticalAlignment="Top" 
+            Width="132" 
+            Click="ReportBugButton_Click"  
+            Template="{StaticResource BtnControlTemplate}" />
+        
+        <Label Content="Rank:" Height="28" HorizontalAlignment="Right" Margin="0,48,49,0" Name="RankLabel" VerticalAlignment="Top" />
+        <Label Content="0 of 0" Height="28" HorizontalAlignment="Right" Margin="0,48,3,0" Name="RankLabelValue" VerticalAlignment="Top" Width="50" />
+        <Label Content="Coin Type:" Height="28" HorizontalAlignment="Left" Margin="4,11,0,0" Name="label1" VerticalAlignment="Top" Width="79" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="77,10,0,0" Name="CoinType" VerticalAlignment="Top" Width="133" Background="DarkGray" Foreground="Black" SelectionChanged="CoinType_SelectionChanged">
+            <ComboBoxItem Content="Most Profitable" Background="DarkGray" IsSelected="True" ToolTip="Mines the most profitable coin. 1.5% fees. About 20% more profit then straight Doge Coin."/>
+            <!--<ComboBoxItem Content="Doge Coin" Background="DarkGray" ToolTip="Mines Doge Coin. 0% fees"/>-->
+            <!--<ComboBoxItem Content="Cosmos Coin" Background="DarkGray" ToolTip="Mines Cosmos Coin. 1% fees"/>-->
+        </ComboBox>
+        <ComboBox Foreground="WhiteSmoke" Background="LightSteelBlue" Height="23" HorizontalAlignment="Left" Margin="303,46,0,0" Name="MiningBalancesBox" VerticalAlignment="Top" Width="182">
+            <!-- ReSharper disable once InconsistentNaming -->
+            <ComboBoxItem Content="0.0 DOGE" Name="DOGE" Foreground="WhiteSmoke" Background="LightSteelBlue"/>
+            <ComboBoxItem Content="0.0 BTC" Name="BTC" Foreground="WhiteSmoke" Background="LightSteelBlue" IsSelected="True"/>
+        </ComboBox>
+    </Grid>
+</Window>

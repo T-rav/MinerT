@@ -1,0 +1,19 @@
+﻿<Window x:Class="MinerT.BugReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MinerT :: BugReport" Height="500" Width="510" 
+        MinHeight="500" MinWidth="510"
+        MaxHeight="500" MaxWidth="510"
+        Background="AliceBlue"
+        Icon="/MinerT;component/green_creature.ico">
+    <Grid>
+        <Label Content="Screen Shot:" Height="28" HorizontalAlignment="Left" Margin="16,5,0,0" Name="ScreenShotLabel" VerticalAlignment="Top" FontWeight="SemiBold"/>
+        <Image Height="250" HorizontalAlignment="Left" Margin="20,28,0,0" Name="ScreenshotImage" Stretch="Fill" VerticalAlignment="Top" Width="450" />
+        <Label Content="Additional Detail:" Height="28" HorizontalAlignment="Left" Margin="20,295,0,0" Name="AdditionalDetaiLabel" VerticalAlignment="Top" FontWeight="SemiBold"/>
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="283,434,0,0" Name="CancelButton" VerticalAlignment="Top" Width="75" IsCancel="True" Background="SteelBlue" Foreground="WhiteSmoke" Click="CancelButton_Click" />
+        <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="386,433,0,0" Name="OkButton" VerticalAlignment="Top" Width="75" IsDefault="True" Background="RoyalBlue" Foreground="WhiteSmoke" Click="OkButton_Click" />
+        <ScrollViewer Height="106" HorizontalAlignment="Left" Margin="20,317,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="450">
+            <TextBox Height="106" Name="AdditionalDetailsTextBox" Width="431" />
+        </ScrollViewer>
+    </Grid>
+</Window>
